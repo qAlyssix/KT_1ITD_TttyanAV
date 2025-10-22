@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Отчёт по ЛР №1 — Tttyan A.V.</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Обложка -->
+  <section class="cover" id="cover">
+    <div class="cover-content">
+      <h1>Лабораторная работа №1</h1>
+      <h2>Настройка и использование SSH для удалённого доступа к репозиторию</h2>
+
+      <div class="info">
+        <p><strong>Выполнил(а):</strong> Тттян Алиса Вагаршаковна</p>
+        <p><strong>Группа:</strong> 1ЭИТ</p>
+        <p><strong>Год:</strong> 2025</p>
+        <p><strong>Учебное заведение:</strong> [IThub Москва]</p>
+      </div>
+
+      <button onclick="scrollToReport()" class="start-btn">Перейти к отчёту</button>
+    </div>
+  </section>
+
+  <!-- Отчёт -->
+  <section id="report">
+    <h2>Содержание отчёта</h2>
+
+    <div class="report-block">
+      <h3>1. Создание и настройка SSH-ключей</h3>
+      <p>Создана пара SSH-ключей (id_ed25519 и id_ed25519.pub), публичный ключ добавлен в профиль GitHub для безопасного подключения.</p>
+      <img src="c:\Users\alyss\OneDrive\Изображения\Снимки экрана\Снимок экрана 2025-10-22 235137.png" alt="SSH ключи" />
+    </div>
+
+    <div class="report-block">
+      <h3>2. Работа с репозиторием</h3>
+      <p>Создан репозиторий <code>KT_1ITD_TttyanAV</code>, настроен доступ по SSH и выполнено клонирование.</p>
+      <img src="images/git_clone.png" alt="Git clone" />
+    </div>
+
+    <div class="report-block">
+      <h3>3. Топология сети</h3>
+      <p>В Cisco Packet Tracer создана топология. Изменено имя устройства (hostname) на <b>TttyanAV</b>.</p>
+      <img src="images/topology.png" alt="Топология сети" />
+    </div>
+
+    <div class="report-block">
+      <h3>4. Выводы</h3>
+      <p>В ходе работы изучены основы SSH-аутентификации и настройки доступа к удалённым репозиториям. Получен опыт работы с Git и Cisco Packet Tracer.</p>
+    </div>
+  </section>
+
+  <script>
+    function scrollToReport() {
+      document.querySelector('#report').scrollIntoView({ behavior: 'smooth' });
+    }
+  </script>
+
+</body>
+</html>
