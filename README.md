@@ -1,1 +1,0 @@
-# KT_1ITD_TttyanAV
