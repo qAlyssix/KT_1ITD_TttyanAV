@@ -127,3 +127,25 @@ body {
     transform: translateY(0);
   }
 }
+pre code {
+  background: #f4f4f4;
+  display: block;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 15px 0;
+}
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+th {
+  background-color: #f4f4f4;
+}
